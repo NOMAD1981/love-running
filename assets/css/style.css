@@ -6,21 +6,21 @@
     border:0;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2{
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -28,12 +28,12 @@ h1, h2{
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo, #menu {
     line-height: 75px;
 }
 
@@ -48,24 +48,24 @@ h1, h2{
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* Hero image and cover text */
 
-#hero-outer{
+#hero-outer {
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image{
+#hero-image {
     height:600px;
     width: 100%;
     background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
@@ -113,11 +113,11 @@ h1, h2{
 
 /* Club ethos */
 
-#club-ethos{
+#club-ethos {
     height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -191,7 +191,7 @@ hr {
 
 /* Event times */
 
-#times{
+#times {
     background-image: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,20 +218,20 @@ hr {
 
 /* Footer */
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -247,7 +247,7 @@ footer{
     column-gap: 0px;
 }
 
-#photo img{
+#photo img {
     width: 100%;
 }
 
@@ -309,8 +309,8 @@ footer{
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
+@media screen and (max-width: 1200px) {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -327,7 +327,7 @@ footer{
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
@@ -347,7 +347,7 @@ footer{
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
 
     #menu{
         clear: left;
@@ -357,38 +357,38 @@ footer{
         line-height: 25px;
     }
 
-    #cover-text{
+    #cover-text {
         left:0px;
     }
 
-    #club-ethos{
+    #club-ethos {
         width:90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading{
+    .left-about-heading, .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2{
+    .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p{
+    .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px 0 20px;
     }
 
-    #photo{
+    #photo {
         column-count: 3;
     }
 }
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
+@media screen and (max-width: 800px) {
+    #photo {
         column-count: 2;
     }
 }
